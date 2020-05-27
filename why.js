@@ -29,3 +29,4 @@ this.ctx.fillStyle=("#000");
   new Audio('./Rick Astley - Never Gonna Give You Up (Video).mp3').play()
  }
 }
+window.launch=launch;
