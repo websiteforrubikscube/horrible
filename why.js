@@ -1,4 +1,4 @@
-export default function launch(){
+export default class launch(){
 constructor(){
  this.yoshi=0;
  this.rickroll=0;
@@ -17,6 +17,7 @@ this.fpress=false;
     }
 let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
+ proccess(){
   if((keys[70]==false)&&(this.fpress==false)){
    if(this.yoshi<1){
     this.yoshi++;
@@ -34,5 +35,6 @@ this.ctx.fillStyle=("#000");
   new Audio('./Rick Astley - Never Gonna Give You Up (Video).mp3').play()
  }
  }
+  }
 }
 window.launch=launch;
