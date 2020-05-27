@@ -1,4 +1,4 @@
-export default class launch(){
+export default class launch{
 constructor(){
  this.yoshi=0;
  this.rickroll=0;
