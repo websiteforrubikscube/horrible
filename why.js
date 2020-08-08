@@ -14,10 +14,7 @@ constructor(){
     window.onkeydown = function (e) {
       keys[e.keyCode] = true;
     }
-}
- 
- 
-let canv = document.getElementById("Screen");
+ let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
     if(keys[70]==true){
      this.fpress=true;
@@ -43,3 +40,7 @@ this.ctx.fillStyle=("#000");
   }
 }
 window.launch=launch;
+
+}
+ 
+ 
