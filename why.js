@@ -1,5 +1,5 @@
 var keys ={};
-export default class launch{
+export default function launch(){
 constructor(){
  this.yoshi=0;
  this.rickroll=0;
