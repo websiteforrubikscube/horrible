@@ -46,7 +46,5 @@ this.ctx.fillStyle=("#000");
   }
 }
 window.launch=launch;
-
-}
  
  
