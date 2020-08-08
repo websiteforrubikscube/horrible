@@ -1,6 +1,6 @@
 var keys ={};
 export default function launch(){
-constructor(){
+function constructor(){
  this.yoshi=0;
  this.rickroll=0;
  this.fpress=false;
@@ -15,6 +15,7 @@ constructor(){
       keys[e.keyCode] = true;
     }
 }
+ constructor();
  start(){
  let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
