@@ -34,10 +34,10 @@ constructor(){
    }
    
 this.ctx.fillStyle=("#000");
- this.ctx.fillText("Press F to...",50%,50%);
+ this.ctx.fillText("Press F to...", 0, 0);
  if(this.fpress==true){
 this.ctx.fillStyle=("#000");
- this.ctx.fillText("get RICKROLLED!",50%,50%);
+ this.ctx.fillText("get RICKROLLED!", 0, 0);
   if(this.rickroll<1){
    this.rickroll++;
   new Audio('/b.mp3').play()
