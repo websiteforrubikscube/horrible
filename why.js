@@ -29,11 +29,11 @@ constructor(){
    if(this.yoshi<1){
     this.yoshi++;
     new Audio('./Super Mario World 2 Yoshi's Island Music Main Theme.mp3').play()
+              }
    }
    
 this.ctx.fillStyle=("#000");
  this.ctx.fillText("Press F to...",50%,50%);
- }
  if(this.fpress==true){
 this.ctx.fillStyle=("#000");
  this.ctx.fillText("get RICKROLLED!",50%,50%);
