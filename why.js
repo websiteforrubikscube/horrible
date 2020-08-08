@@ -4,7 +4,7 @@ constructor(){
  this.yoshi=0;
  this.rickroll=0;
  this.fpress=false;
- load=true;
+ 
 
  keys = {};
  keys[70] = false;
@@ -15,14 +15,13 @@ constructor(){
       keys[e.keyCode] = true;
     }
 }
- var load=false;
- if(load==true){
+ 
+ 
+let canv = document.getElementById("Screen");
+  this.ctx = canv.getContext('2d');
     if(keys[70]==true){
      this.fpress=true;
     }
- }
-let canv = document.getElementById("Screen");
-  this.ctx = canv.getContext('2d');
  proccess(){
   if((keys[70]==false)&&(this.fpress==false)){
    if(this.yoshi<1){
