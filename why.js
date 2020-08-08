@@ -16,13 +16,13 @@ function constructor(){
     }
 }
  constructor();
- start(){
+ function start(){
  let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
   
  }
- 
- proccess(){
+ start();
+ function proccess(){
     if(keys[70]==true){
      this.fpress=true;
     }
@@ -44,6 +44,7 @@ this.ctx.fillStyle=("#000");
   new Audio('/b.mp3').play()
  }
  }
+  window.setTimeout(function() {proccess();}, 33);
   }
 }
 window.launch=launch;
