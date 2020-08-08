@@ -1,9 +1,12 @@
 var keys ={};
+var load=false;
 export default class launch{
 constructor(){
  this.yoshi=0;
  this.rickroll=0;
  this.fpress=false;
+ load=true;
+
  keys = {};
  keys[70] = false;
       window.onkeyup = function (e) {
@@ -13,9 +16,11 @@ constructor(){
       keys[e.keyCode] = true;
     }
 }
+ if(load==true){
     if(keys[70]==true){
      this.fpress=true;
     }
+ }
 let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
  proccess(){
