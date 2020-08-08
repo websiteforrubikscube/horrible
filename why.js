@@ -1,3 +1,4 @@
+var keys ={};
 export default class launch{
 constructor(){
  this.yoshi=0;
