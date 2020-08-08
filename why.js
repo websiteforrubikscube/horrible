@@ -14,6 +14,7 @@ constructor(){
     window.onkeydown = function (e) {
       keys[e.keyCode] = true;
     }
+}
  start(){
  let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
