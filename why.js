@@ -28,7 +28,7 @@ constructor(){
   if((keys[70]==false)&&(this.fpress==false)){
    if(this.yoshi<1){
     this.yoshi++;
-    new Audio('./Super Mario World 2 Yoshi's Island Music Main Theme.mp3').play()
+    new Audio('./Super Mario World 2 Yoshi's Island Music Main Theme.mp3').play();
               }
    }
    
@@ -39,7 +39,7 @@ this.ctx.fillStyle=("#000");
  this.ctx.fillText("get RICKROLLED!",50%,50%);
   if(this.rickroll<1){
    this.rickroll++;
-  new Audio('./Rick Astley - Never Gonna Give You Up (Video).mp3').play()
+  new Audio('./Rick Astley - Never Gonna Give You Up (Video).mp3').play();
  }
  }
   }
