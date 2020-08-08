@@ -1,5 +1,4 @@
 var keys ={};
-var load=false;
 export default class launch{
 constructor(){
  this.yoshi=0;
@@ -16,6 +15,7 @@ constructor(){
       keys[e.keyCode] = true;
     }
 }
+ var load=false;
  if(load==true){
     if(keys[70]==true){
      this.fpress=true;
