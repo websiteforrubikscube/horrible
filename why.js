@@ -17,12 +17,13 @@ constructor(){
  start(){
  let canv = document.getElementById("Screen");
   this.ctx = canv.getContext('2d');
-    if(keys[70]==true){
-     this.fpress=true;
-    }
+  
  }
  
  proccess(){
+    if(keys[70]==true){
+     this.fpress=true;
+    }
   if((keys[70]==false)&&(this.fpress==false)){
    if(this.yoshi<1){
     this.yoshi++;
