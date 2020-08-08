@@ -4,7 +4,7 @@ constructor(){
  this.rickroll=0;
  this.fpress=false;
  keys = {};
-    var keys[70] = false;
+ keys[70] = false;
       window.onkeyup = function (e) {
       keys[e.keyCode] = false;
     }
