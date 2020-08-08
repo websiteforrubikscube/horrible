@@ -28,7 +28,8 @@ constructor(){
   if((keys[70]==false)&&(this.fpress==false)){
    if(this.yoshi<1){
     this.yoshi++;
-    new Audio('/Super Mario World 2 Yoshi's Island Music Main Theme.mp3').play()
+    new Audio('/jump.mp3').play()
+    //('/Super Mario World 2 Yoshi's Island Music Main Theme.mp3')
               }
    }
    
