@@ -2,14 +2,14 @@ export default class launch{
 constructor(){
  this.yoshi=0;
  this.rickroll=0;
+ this.fpress=false;
  keys = {};
-    keys[70] = false;
+    var keys[70] = false;
       window.onkeyup = function (e) {
       keys[e.keyCode] = false;
     }
     window.onkeydown = function (e) {
       keys[e.keyCode] = true;
-this.fpress=false;
     }
 }
     if(keys[70]==true){
